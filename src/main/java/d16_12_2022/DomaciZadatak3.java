@@ -7,14 +7,14 @@ public class DomaciZadatak3 {
 //sve neprane kao pozitivne brojeve
 //                Primer izvrssenja:
 //	   0, 1, -2, 3, -4, 5, -6, ……..
-//        for (int i = 1; i <= 100; i++) {
-//            if (i % 2 == 0) {
-//                System.out.print("-" + i + ", ");
-//            } else {
-//                System.out.print(i + ", ");
-//            }
-//
-//        }
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                System.out.print("-" + i + ", ");
+            } else {
+                System.out.print(i + ", ");
+            }
+
+        }
     }
 }
 
