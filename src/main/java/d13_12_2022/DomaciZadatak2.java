@@ -9,6 +9,25 @@ public class DomaciZadatak2 {
 //        i nije u liniji to ce zavisiti od duzine imena.
 //        Napomena: svaka informacija mora da bude u okviru posebne promenljive.
 
+        String brojKartice = "1234 1234 1234 1234";
+        int mesecIsteka = 10;
+        int godinaIsteka = 25;
+        String ime = "Dragana";
+        String prezime = "Nikolic";
+
+        System.out.println("********************************");
+        System.out.println("*  Credit Card                 *");
+        System.out.println("*    ****                      *");
+        System.out.println("*    ****                      *");
+        System.out.println("*      " + brojKartice + "     *");
+        System.out.println("*         " + "valid > " + mesecIsteka + "/"+ godinaIsteka + "        *");
+        System.out.println("*                              *");
+        System.out.println("*   " + ime + " " + prezime + "            *");
+
+        System.out.println("********************************");
+
+
+
 
     }
 }
