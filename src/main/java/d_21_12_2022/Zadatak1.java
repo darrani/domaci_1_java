@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Zadatak1 {
     public static void main(String[] args) {
         ArrayList<Integer>brojevi = new ArrayList<Integer>();
+        Scanner s = new Scanner(System.in);
 
 
 //    1.Zadatak
