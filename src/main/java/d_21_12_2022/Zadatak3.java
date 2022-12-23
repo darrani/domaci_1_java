@@ -34,7 +34,7 @@ public class Zadatak3 {
         for (int i = 0; i < nizA.size(); i++) {
             if(nizA.get(i)>0){
 
-                System.out.print(nizA.get(i) + ", "); // nije zavrsen
+                System.out.print(nizA.get(i) + ", ");
             }
 
         }
