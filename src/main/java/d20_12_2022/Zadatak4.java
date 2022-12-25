@@ -36,13 +36,30 @@ public class Zadatak4 {
 //	Unos: =
 //	Zagrade nisu uparene
 //	(Objasnjenje: fali poslednja zagrada iz formule)
-     int otvorenaZagrada = 0;
-     int zatvorenaZagrada = 0;
-//     while (simbol.contains("(")){
-//         System.out.println("Unos: ");
-//         String simbol = s.next();
-//     }
 
+        System.out.println();
+
+        String znak="";
+        int otvorenaZagrada= 0;
+        int zatvorenaZagrada= 0;
+
+        while(!znak.equals("=")){
+            System.out.println("Unesi znak ");
+            znak=s.next();
+
+            if (znak.equals("(")){
+                otvorenaZagrada++;
+            }
+            else if (znak.equals(")")){
+                zatvorenaZagrada++;
+            }
+
+
+        }if (otvorenaZagrada==zatvorenaZagrada){
+            System.out.println("Zagrade su uparene");
+        }else {
+            System.out.println("Zagrade nisu uparene");
+        }
 
     }
 }
