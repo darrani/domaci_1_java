@@ -14,4 +14,6 @@ public class Proizvod {
         System.out.println("Tezina u kilogramima je: " + kg + " kg.");
 
     }
+
+
 }
