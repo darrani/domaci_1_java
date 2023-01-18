@@ -4,11 +4,16 @@ public class Trener extends Osoba{
     public int godineIskustva;
     public String tip;
 
-    public Trener(String imeIprezime, String jmbg, int godinarodjenja, int godineIskustva, String tip) {
-        super(imeIprezime,jmbg, godinarodjenja);
+    public Trener(String imeIPrezime, String jmbg, int godinaRodjenja, int godineIskustva, String tip) {
+        super(imeIPrezime, jmbg, godinaRodjenja);
         this.godineIskustva = godineIskustva;
         this.tip = tip;
     }
+//difoltni konstruktor
+    public Trener() {
+
+    }
+
 
     public int getGodineIskustva() {
         return godineIskustva;
@@ -32,5 +37,5 @@ public class Trener extends Osoba{
                         this.godineIskustva +" godina iskustva.");
         System.out.println();
 
-    }
+   }
 }
